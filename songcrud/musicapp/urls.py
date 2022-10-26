@@ -1,9 +1,10 @@
 from django.urls import path
 
 from .views import index
+from .views import app
 
 urlpatterns = [
-   path("musicapp/", index, name="index")
+   path("", index, name="index")
 ]
 
 
